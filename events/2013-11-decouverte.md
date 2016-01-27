@@ -3,6 +3,7 @@ date: 12, 19 et 26 novembre 2013
 lieu: Faculté des sciences
 category: event
 title: fHACKtory Découverte \#1
+layout: default
 ---
 
 La première édition de cet événement à Lyon s’est déroulée les mardis 12, 19 et 26 novembre 2013. Les participants ont pu découvrir ou redécouvrir différents composants à dispositions pour créer ou prototyper les objets du futur ! Arduino, Mindstorm, Imprimantes 3Ds étaient au rendez-vous.
