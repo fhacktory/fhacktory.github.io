@@ -1,0 +1,31 @@
+<!-- Intro Wrapper -->
+  <div id="intro-wrapper" class="wrapper wrapper-style1">
+    <h2 class="title">&Eacute;vénements passés</h2>
+    <div class="container">
+      <div class="row">
+        <div class="12u">
+          <section id="past">
+            <div class="row">
+            
+            {% for evt in site.pages %}
+            {% if evt.category == 'event' %}
+            
+            <div class="4u">
+              <h3>{{ evt.title }}</h3>
+                <div class="byline">{{ evt.date }}</div>
+                <div class="byline">{{ evt.lieu }}</div>
+              </div>
+            </div>
+            
+            {% endif %}
+            {% endfor %}
+
+            </div>
+
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- /Intro Wrapper -->
