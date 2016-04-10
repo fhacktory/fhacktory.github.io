@@ -1,50 +1,52 @@
 <!-- Intro Wrapper -->
-  <div id="intro-wrapper" class="wrapper wrapper-style1">
+<div id="intro-wrapper" class="wrapper wrapper-style1">
     <h2 class="title">&Eacute;vénements à venir</h2>
+
     <div class="container">
 
-                  <!-- Image -->
-                    <img class="image image-featured" src="images/fhacktory-hackathon-panorama.jpg" alt="" />
-                  <!-- /Image -->
+        <!-- Image -->
+        <img class="image image-featured" src="images/fhacktory-hackathon-panorama.jpg" alt=""/>
+        <!-- /Image -->
 
-      <div class="row">
-        <div class="12u">
+        <div class="row">
+            <div class="12u">
 
-          <section id="events">
+                <section id="events">
 
-            <div class="row">
-			        <div class="4u event">
-              <h3>Fhacktory::Lyon</h3>
-                <div class="byline">12-13 Mars 2016</div>
-              </div>
-              <div class="4u event">-
-                <!--<h3>Fhacktory::Lyon</h3>
-                <div class="byline">Fall 2015</div>
-                <a href="https://www.eventbrite.fr/e/billets-fhacktory-lyon-spring-2015-15681194876" class="button button-style3">INFOS / INSCRIPTIONS</a>-->
-              </div>
-              <div class="4u event">
-                <h3>Fhacktory::*</h3>
-                <div class="byline">Intéressé pour monter un Fhacktory dans ta ville ?</div>
-              </div>
+                    <div class="row">
+
+                        {% assign sorted_pages = (site.pages | sort: 'period') %}
+                        {% assign first = 1 %}
+                        {% for evt in site.pages reversed %}
+                        {% if evt.category == 'event' %}
+                        {% if first == 1 %}
+                        {% assign first = 0 %}
+                        <div class="12u event">
+                            <h3>{{ evt.title }}</h3>
+                            <div class="byline">{{ evt.date }} || {{ evt.lieu }}</div>
+
+                            <a href="{{ evt.tickets }}" target="_blank"
+                               class="button button-style3">Je veux une place !!</a>
+                        </div>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+
+                        <!--
+                        <div class="4u event">
+                            <h3>Fhacktory::*</h3>
+
+                            <div class="byline">Intéressé pour monter un Fhacktory dans ta ville ?</div>
+                            <a href="mailto:contact@fhacktory.com" class="button button-style3">Contacte-nous !</a>
+
+                        </div>
+                        -->
+                    </div>
+
+                </section>
+
             </div>
-
-            <div class="row">
-              <div class="4u event">
-                <a href="https://yurplan.com/event/f-HAC-Ktory-Hackaton/7708" target="_blank" class="button button-style3">Infos / Inscriptions</a>
-                <!--Surveillez l'ouverture de la billeterie sur twitter.-->
-              </div>
-              <div class="4u event">
-			  	&nbsp;
-              </div>
-              <div class="4u event">
-                <a href="mailto:contact@fhacktory.com" class="button button-style3">Contacte-nous !</a>
-              </div>
-            </div>
-
-          </section>
-
         </div>
-      </div>
     </div>
-  </div>
+</div>
 <!-- /Intro Wrapper -->

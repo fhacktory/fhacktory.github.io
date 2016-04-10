@@ -1,8 +1,10 @@
 ---
+period: 2014-06
 date: 14-15 juin 2014
 lieu: Pole Pixel
 category: event
-title: fHACKtory Découverte \#2
+title: fHACKtory Découverte 2
+layout: default
 ---
 
 L’ “atelier objets connectés” est un événement ludique permettant au geek qui se cache en toi de découvrir et tester les technologies (software et hardware) liés aux objets connectés. Viens découvrir ou redécouvrir différents composants à dispositions pour créer ou prototyper les objets du futur ! Arduino, Mindstorm, Imprimantes 3Ds, 3D pads, Makey Makey seront au rendez-vous. L’atelier se déroulera sur un weekend: Découverte du matériel / Réalisation d’un prototype en équipe / Présentation des réalisations. Il est ouvert à tous ceux qui sont suffisamment curieux pour venir voir ce qu’il s’y passe. Toutes les compétences un brin geek sont acceptées: développeurs, designers, savant fou, curieux, etc. Venez découvrir la seconde édition de cet événement les 14 et 15 juin.

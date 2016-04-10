@@ -1,0 +1,11 @@
+.row.events {
+    text-align: center;
+}
+
+.row.events section {
+    padding-bottom: 40px;
+}
+
+.row.events .current {
+   border-bottom: solid white 2px;
+}

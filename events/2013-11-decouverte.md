@@ -1,8 +1,9 @@
 ---
+period: 2013-11
 date: 12, 19 et 26 novembre 2013
 lieu: Faculté des sciences
 category: event
-title: fHACKtory Découverte \#1
+title: fHACKtory Découverte 1
 layout: default
 ---
 

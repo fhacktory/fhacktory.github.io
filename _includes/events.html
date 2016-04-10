@@ -4,26 +4,29 @@
     <div class="container">
       <div class="row">
         <div class="12u">
-          <section id="past">
-            <div class="row">
-            
-            {% for evt in site.pages %}
+            <div class="row events">
+
+            {% assign sorted_pages = (site.pages | sort: 'period') %}
+            {% assign first = 1 %}
+            {% for evt in site.pages reversed %}
             {% if evt.category == 'event' %}
-            
+
+            {% if first == 1 %}
+                {% assign first = 0 %}
+            {% else %}
             <div class="4u">
+              <section>
               <h3>{{ evt.title }}</h3>
                 <div class="byline">{{ evt.date }}</div>
                 <div class="byline">{{ evt.lieu }}</div>
-              </div>
+              </section>
             </div>
-            
+            {% endif %}
+
             {% endif %}
             {% endfor %}
-
             </div>
-
-          </section>
-
+            </div>
         </div>
       </div>
     </div>
