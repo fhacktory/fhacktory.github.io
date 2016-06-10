@@ -4,6 +4,7 @@ date: 1 et 2 octobre 2016
 lieu: La Tour Du Web
 category: event
 title: fHACKtory Hackaton
+tickets: http://yurplan.com/event/f-HAC-Ktory-Hackaton-Fall-2016/8267?from=website
 layout: default
 ---
 
