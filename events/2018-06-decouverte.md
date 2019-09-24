@@ -1,7 +1,7 @@
 ---
 period: 2018-10
 date: 14 juin 2018
-lieu: La Cuisine du Web
+lieu: La Tour du Web
 category: event
 title: fHACKtory Découverte - Atelier Chatbot
 tickets: https://www.helloasso.com/associations/fhactory-lyon/evenements/fhacktory-hackathon-octobre-2019?fbclid=IwAR3DT1k1_KrZUhR4TxSola7R6kMxzcbx_ar8E8a1Qazu2Aowef0BArvIwp8
