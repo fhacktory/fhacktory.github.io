@@ -59,7 +59,8 @@ form .actions{
 .feature-list h3{
     position:relative;
     padding:4px 0 0 48px !important;
-    line-height:1.25em
+    line-height:1.25em;
+    width: 100%;
 }
 .feature-list h3:before{
     position:absolute;
