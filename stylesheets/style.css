@@ -34,7 +34,7 @@ a{
     -ms-transition:color .25s ease-in-out;
     transition:color .25s ease-in-out
         /* custom */
-        color: white;
+        color: white !important;
 }
 a:hover{
     text-decoration:none;
