@@ -1650,6 +1650,8 @@ code{
     background:url('../images/banner.jpg') center center;
     background-size:cover
 }
+/* custom */
+/*
 #header-wrapper:before{
     content:'';
     position:absolute;
@@ -1659,6 +1661,7 @@ code{
     height:100%;
     background:url('images/overlay.png')
 }
+*/
 #footer-wrapper{
     background:#282b34 url('images/overlay.png');
     color:#eee;
