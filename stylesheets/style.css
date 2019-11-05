@@ -33,9 +33,13 @@ a{
     -o-transition:color .25s ease-in-out;
     -ms-transition:color .25s ease-in-out;
     transition:color .25s ease-in-out
+        /* custom */
+        color: white;
 }
 a:hover{
-    text-decoration:none
+    text-decoration:none;
+    /* custom */
+    text-decoration:underline;
 }
 strong,b{
     font-weight:700;
