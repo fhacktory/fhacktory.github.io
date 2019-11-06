@@ -3,13 +3,11 @@ period: 2016-03
 date: 12 et 13 mars 2016
 lieu: La Tour Du Web
 category: event
-title: fHACKtory Hackaton
+title: Hackaton fHACKtory
 layout: default
 ---
 
-La prochaine édition de fHACKtory Hackaton se déroulera 
-
-Le weekend du 12 et 13 mars 2016
+La prochaine édition de fHACKtory Hackaton s'est déroulée le weekend du 12 et 13 mars 2016
 
 A [La Tour Du Web] (http://www.latourduweb.com/)
 
