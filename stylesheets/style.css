@@ -32,7 +32,7 @@ a{
     -webkit-transition:color .25s ease-in-out;
     -o-transition:color .25s ease-in-out;
     -ms-transition:color .25s ease-in-out;
-    transition:color .25s ease-in-out
+    transition:color .25s ease-in-out;
         /* custom */
         color: white !important;
 }
