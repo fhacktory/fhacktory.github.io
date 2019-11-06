@@ -1,16 +1,14 @@
 ---
 period: 2017-09
 date: 23 septembre 2017
-lieu: La Tour du Web
+lieu: La Tour du Web, Lyon
 category: event
 title: fHACKtory Découverte - Atelier Python
 tickets: https://www.helloasso.com/associations/fhactory-lyon/evenements/fhacktory-hackathon-octobre-2019?fbclid=IwAR3DT1k1_KrZUhR4TxSola7R6kMxzcbx_ar8E8a1Qazu2Aowef0BArvIwp8
 layout: default
 ---
 
-La prochaine édition de fHACKtory Découverte sur le thème Workshop Python se déroulera 
-
-Le Samedi du 23 septembre 2017
+La prochaine édition de fHACKtory Découverte sur le thème Workshop Python s'est déroulée le Samedi du 23 septembre 2017
 
 A [La Tour Du Web] (http://www.latourduweb.com/)
 
