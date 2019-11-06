@@ -1,16 +1,14 @@
 ---
 period: 2017-05
 date: 13 et 14 mai 2017
-lieu: La Tour Du Web
+lieu: La Tour Du Web, Lyon
 category: event
-title: fHACKtory Hackaton
+title: Hackaton fHACKtory
 tickets: https://yurplan.com/event/Le-Hackathon-du-mois-de-Mai-a-la-Tour-du-Web/15734?from=website
 layout: default
 ---
 
-La prochaine édition de fHACKtory Hackaton se déroulera 
-
-Le weekend du 13 et 14 mai 2017
+Le Hackaton fHACKtory s'est déroulé le weekend du 13 et 14 mai 2017
 
 A [La Tour Du Web] (http://www.latourduweb.com/)
 
