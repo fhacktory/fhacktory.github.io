@@ -1,7 +1,7 @@
 ---
 period: 2014-06
 date: 14-15 juin 2014
-lieu: Pole Pixel
+lieu: Pole Pixel, Villeurbanne
 category: event
 title: fHACKtory Découverte 2
 layout: default
