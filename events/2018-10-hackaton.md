@@ -1,14 +1,14 @@
 ---
 period: 2018-10
 date: 6 et 7 octobre 2018
-lieu: La Tour du Web
+lieu: La Tour du Web, Lyon
 category: event
-title: fHACKtory Hackaton
+title: Hackaton fHACKtory
 tickets: https://www.helloasso.com/associations/fhactory-lyon/evenements/fhacktory-hackathon-octobre-2019?fbclid=IwAR3DT1k1_KrZUhR4TxSola7R6kMxzcbx_ar8E8a1Qazu2Aowef0BArvIwp8
 layout: default
 ---
 
-La prochaine édition de fHACKtory Hackaton se déroulera 
+La prochaine édition de Hackaton fHACKtory s'est déroulée
 
 Le weekend du 6 et 7 octobre 2018
 
