@@ -1,16 +1,14 @@
 ---
 period: 2018-01
 date: 20 et 21 janvier 2018
-lieu: La Tour Du Web
+lieu: La Tour Du Web, Lyon
 category: event
-title: fHACKtory Hackaton
+title: Hackaton fHACKtory
 tickets: https://yurplan.com/event/f-HAC-Ktory-Hackathon-Janvier-2018/21782
 layout: default
 ---
 
-La prochaine édition de fHACKtory Hackaton se déroulera 
-
-Le weekend du 20 et 21 janvier 2018
+La prochaine édition de fHACKtory Hackaton s'est déroulée le weekend du 20 et 21 janvier 2018
 
 A [La Tour Du Web] (http://www.latourduweb.com/)
 
