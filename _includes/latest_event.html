@@ -1,12 +1,8 @@
 <!-- Intro Wrapper -->
 <div id="intro-wrapper" class="wrapper wrapper-style1">
-    <h2 class="title">&Eacute;vénements à venir</h2>
+    <h2 class="title">Dernier &eacute;vénement</h2>
 
     <div class="container">
-
-        <!-- Image -->
-        <img class="image image-featured" src="images/fhacktory-hackathon-panorama.jpg" alt=""/>
-        <!-- /Image -->
 
         <div class="row">
             <div class="12u">
@@ -23,10 +19,11 @@
                         {% assign first = 0 %}
                         <div class="12u event">
                             <h3>{{ evt.title }}</h3>
-                            <div class="byline">{{ evt.date }} || {{ evt.lieu }}</div>
-
+                            <div class="byline">{{ evt.date }} - {{ evt.lieu }}</div>
+<!--
                             <a href="{{ evt.tickets }}" target="_blank"
                                class="button button-style3">Je veux une place !!</a>
+							   -->
                         </div>
                         {% endif %}
                         {% endif %}
@@ -47,6 +44,11 @@
 
             </div>
         </div>
+		
+		<br>
+		
+		<img class="image image-featured" src="images/hackathon_oct_2019.jpg" alt=""/>
+		
     </div>
 </div>
 <!-- /Intro Wrapper -->
